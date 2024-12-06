@@ -1,0 +1,95 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color:gray;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+body::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('c:\Users\POPOLY\Desktop\page1\page\new\images\im.jpg') ;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.5);
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 600px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.image {
+    flex: 1;
+}
+
+.image img {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+.inscription {
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.l{
+    padding: 5px;
+    background-color: #ccc;
+    margin-left: -40px;
+}
+.ll{
+    padding: 5px;
+    background-color: #007BFF;
+    margin-right: 50px;
+}
+
+.formulaire form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.formulaire form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+.formulaire form button {
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.formulaire form button:hover {
+    background-color: #0056b3;
+}
+i{
+    padding: 11px;
+    background-color: antiquewhite;
+    border: 1px solid #ccc;
+    
+}
+.logo{
+    display: flex;
+    padding: 10px;
+}
