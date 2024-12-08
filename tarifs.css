@@ -3,6 +3,7 @@
     padding: 0;
 }
 body{
+    background-color: #f4f4f4;
     
 }
 .contenu{
@@ -81,59 +82,7 @@ span{
 .ll:hover{
     color: blue;
 }
-.image{
-    width: 100%;
-    height: 200px;;
 
-}
-.images{
-    padding: 100px;
-}
-.cadrenoir{
-    background-color: rgb(49, 46, 46);
-    padding: 10px;
-}
-.sous_cadre{
-    list-style-type: none;
-    display: flex;
-}
-.lll{
-    margin-left: 30px;
-    padding: 10px;
-    margin: -10px 0 -10px 0;
-}
-#lll{
-    text-decoration: none;
-    color: white;
-}
-.lll:hover{
-    background-color: black;
-
-}
-.contenaire{
-    background-image: url('c:/Users/POPOLY/Desktop/page1/images/tcf.webp');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    padding:0;
-    height: 100%;
-    margin: 100px;
-    
-}
-h1{
-    margin-left: 50%;
-}
-.boutton{
-    margin-left: 25%;
-    margin-bottom: 20px;
-    padding: 15px;
-}
-#submit{
-    background-color: blue;
-    border-radius: 30px;
-    color: white;
-}
 .font{
     background-color: rgb(56, 56, 245);
     display: flex;
@@ -216,9 +165,161 @@ button:hover {
     background-color: white;
     color: black;
 }
+.image_tarifs{
+    padding: 100px;
+    background-image: url('images/Capture d’écran_6-12-2024_221129_login.formation-tcfcanada.com.jpeg');
+    background-size: cover;
+}
+.bleu{
+    color: blue;
+    margin-left: 10px;
+
+}
+.title{
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+.aligne{
+    color: rgb(47, 46, 46);
+    margin-left: 10px;
+}
+.paragraphe{
+    margin-left: 35%;
+    font-size: 20px;
+    color: rgb(94, 93, 93);
+    margin-top: -5px;
+}
+.les_tarifs{
+    display: flex;
+    margin-left: 18%;
+    margin-top: 45px;
+}
+#cadre_1{
+    margin-bottom: 120px;
+  }
+#cadre_2{
+    margin-bottom: 120px;
+    width: 320px;
+  }
+.cadre{
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid blue;
+    text-align: center;
+    margin-right: 20px;
+    transition: transform 0.5s;
+  }
+
+  .bronze {
+    background-color: #233cfa;
+    color: #fff;
+    padding: 30px 15px;
+    position: relative;
+  }
+
+  .bronze h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  .bronze .ribban {
+    position: absolute;
+    top: 20;
+    right: 0;
+    background-color: #f99843;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 20px;
+    transform: rotate(37deg);
+    transform-origin: top right;
+    text-transform: uppercase;
+  }
+  .ribban{
+    margin-right: -15px;
+  }
+  #ribban_2{
+    background-color: rgb(170, 168, 168);
+  }
+  #ribban_3{
+    background-color: #e47412;
+  }
+  #ribban_4{
+    background-color: gray;
+  }
+  .prix {
+    background-color: #fff;
+    padding: 20px 10px;
+  }
+
+  .prix .price {
+    font-size: 48px;
+    color: #444;
+    margin: 0;
+  }
+
+  .prix .price small {
+    font-size: 18px;
+    vertical-align: top;
+  }
+.jour{
+    color: #056be0;
+    font-size: 25PX;
+}
+#taxe{
+    color: #696666;
+}
+.taxe{
+    margin-bottom: 20px;
+}
+hr{
+    width: 50%;
+    margin-left: 55px;
+    margin-bottom: 20px;
+}
+.ligne{
+    margin-bottom: 70px;
+}
+.lignes{
+    margin-bottom: 180px;
+}
+.abonner{
+    background-color: #007bff;
+    padding: 15px;
+    width: 150px;
+    margin-left: 30px;
+    color: white;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.abonner_2{
+    background-color: #007bff;
+    padding: 15px;
+    width: 150px;
+    margin-left: 70px;
+    color: white;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.cadre:hover{
+    transform: translateY(-20px);
+}
+.cadre:hover ~.cadre{
+    transform: translateY(20px);
+}
+.couleur{
+    color: #0f1de7;
+}
+.espace{
+    height: 30px;
+}
 .dero{
     display: none;
-    color:blue;
+    color: #007bff;
     position: absolute;
     background-color: white;
     padding: 10px;
@@ -236,13 +337,14 @@ button:hover {
 }
 .dero li a{
     text-decoration: none;
-    color: blue;
+    color: #333;
     padding: 5px 10px;
     display: block;
 
 }
 .dero li a:hover{
-    color: #496dd9;
+    background-color: #f0f0f0;
+    color: #000;
 }
 .llll:hover{
     text-shadow: 0 0 5px white;
@@ -250,4 +352,3 @@ button:hover {
 .llll:hover{
     color: #96acf3;
 }
-
