@@ -57,6 +57,10 @@ span{
     margin-left: 5px;
 }
 .attache{
+    position: fixed;
+    top: 50px;
+    left: 0;
+    background-color: white;
     margin: 0;
     padding: 10px; 
     display: flex;
@@ -111,7 +115,7 @@ span{
 
 }
 .contenaire{
-    background-image: url('c:/Users/POPOLY/Desktop/page1/images/tcf.webp');
+    background-image: url('tcf.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

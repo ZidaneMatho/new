@@ -16,7 +16,7 @@ body::before{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('c:\Users\POPOLY\Desktop\page1\page\new\images\im.jpg') ;
+    /*background-image: url('c:\Users\POPOLY\Desktop\page1\page\new\images\im.jpg') ;*/
     background-size: cover;
     background-position: center;
     filter: brightness(0.5);
@@ -25,36 +25,55 @@ body::before{
 
 .container {
     display: flex;
-    width: 90%;
-    max-width: 600px;
+    width: 100%;
+    max-width: 50%;
     background-color: white;
     overflow: hidden;
+    padding: 20px 30px;
+    padding-left:80px;
 }
 
+h2{
+    color: white;
+}
 .image {
     flex: 1;
-}
-
-.image img {
-    width: 90%;
-    height: 100%;
-    object-fit: cover;
+   background-image: url('Capture d’écran_10-12-2024_85035_login.formation-tcfcanada.com.jpeg');
+    min-width: 40%;
+    margin-top: -20px ;
+    margin-left: -90px;
+    margin-right: 40px;
+    margin-bottom: -20px;
 }
 .inscription {
     display: flex;
     list-style-type: none;
     margin-bottom: 20px;
     font-size: 24px;
+    margin: 0;
+    padding: 0 20px 16px;
+    margin-left: 40px;
 }
 .l{
-    padding: 5px;
-    background-color: #ccc;
+    padding: 15px 48px;
+    background-color: #eee;
     margin-left: -40px;
+    cursor: pointer;
 }
 .ll{
-    padding: 5px;
-    background-color: #007BFF;
+    padding: 15px 60px;
+    background-color: #0d8aee;
     margin-right: 50px;
+    cursor: pointer;
+    color: white;
+}
+.l:hover{
+    background-color:  #0d8aee;
+    color: white;
+}
+.ll:hover{
+    background-color: #eee ;
+    color: black;
 }
 
 .formulaire form {
@@ -62,34 +81,50 @@ body::before{
     flex-direction: column;
     margin-right: 50px;
     margin-bottom: 30px;
+    background-color: #fff;
 }
 
 .formulaire form input {
     margin-bottom: 15px;
-    padding: 10px;
+    padding: 15px 100px;
     font-size: 16px;
     border: 1px solid #ccc;
 }
-
 .formulaire form button {
     padding: 10px;
+    width: 90%;
     font-size: 16px;
     color: white;
-    background-color: #007BFF;
+    background: linear-gradient(to right, #57b0f8, #2e74f4 );
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     border: none;
-    border-radius: 20px;
+    border-radius: 25px;
     cursor: pointer;
+    margin-left: 10px;
 }
 .formulaire form button:hover {
-    background-color: #0056b3;
+    background: linear-gradient(to right, #57b0f8 , #2e74f4);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 i{
-    padding: 11px;
-    background-color: antiquewhite;
+    padding: 16px;
+    background-color:#eee ;
     border: 1px solid #ccc;
     
 }
 .logo{
     display: flex;
-    padding: 10px;
+    padding: 10px 20px;
+}
+.logo_5{
+    position: relative;
+    display: flex;
+    padding: 10px 20px;
+}
+.oeil{
+    position: absolute;
+    right: 30px;
+    top: 40%;
+    transform: translateY(-50%);
+    cursor: pointer;
 }
